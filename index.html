@@ -44,8 +44,8 @@ a.link2{
 
 }
 
-h2{
-color:#555555;
+h2, h3, h4{
+color:#00465B;
  font-size:21px;
  font-weight:normal;
 }
@@ -54,7 +54,7 @@ color:#555555;
     .bgItem {background:#ffffff;}
 
 p, li{
- color:#999999;
+ color:#black;
  font-size:13px;
  line-height:19px;
 }
@@ -240,7 +240,7 @@ td[class="spechide"]
                           <td align='left' valign='top'>
                             <div class="contentEditableContainer contentTextEditable">
                               <div class="contentEditable" >
-                                <h2 >About us</h2>
+                                <h1>Welcome to the April 2017 Network Services Newsletter!</h1>
                               </div>
                             </div>
                           </td>
@@ -250,14 +250,154 @@ td[class="spechide"]
                           <td align='left' valign='top'>
                             <div class="contentEditableContainer contentTextEditable">
                               <div class="contentEditable" >
-                                <p >Give information about your company, where you do businesses and the types of services you offer. Link to different pages of your website.
-                                </p>
+                                  <h2>Featured Stories</h2>
+                                  <ul>
+                                      <li>The Network Services Project Management team has been working to consolidate existing sources of site information to create a single, accurate list of all active Adient sites. By comparing and combining information contained in the PRM Plant List
+                                          with information from Verizon, Avaya, and various controller site lists, we were able to reach out to all sites in all regions to verify up-to-date site and contact information. Look for the new Adient Site List to be published in early May
+                                          along with a Gate Review.</li>
+                                  </ul>
+                                  <h4>GI PMO (Project Management Office)</h4>
+                                  <ul>
+                                      <li>If you have a large project that isn’t covered by day-to-day Operations and involves two or more GI teams, consider engaging the <a href="https://connect.adient.com/sites/AdientGlobalInfrastructureITServiceManagement/ProjectManagement/SitePages/Home.aspx">GI Project Management Office</a>.
+                                          Select the “Submit Project Request” tile in the lower left corner of the page and complete the form to have the GI PMO review your request. Consult the <a href="https://connect.adient.com/sites/AdientGlobalInfrastructureITServiceManagement/ProjectManagement/_layouts/15/start.aspx#/Shared%20Documents/Forms/AllItems.aspx">Documents</a>            section in the GI PMO SharePoint page for additional information.</li>
+                                  </ul>
+                                  <h4>Final Separation of Adient and JCI Networks</h4>
+                                  <p><strong>What has taken place so far and what are the next steps?</strong></p>
+                                  <ol>
+                                      <li>
+                                          <p>On March 21st, the team successfully added security to the Extranet. All SMB, NetBios, RPC, LDAP, and DNS protocols not covered by the existing TSA between Adient and JCI were disabled. This was a pre-requisite to the final steps below and
+                                              no major incidents were reported.</p>
+                                      </li>
+                                      <li>
+                                          <p>Final separation preparation - The project team sent a list to application and server owners that appear to still have traffic traversing extranet path between Adient and JCI. We have received very little feedback (10%). <strong>The list out one final time. This is your chance to test your applications prior to separation. We encourage you to please test your applications and provide feedback.</strong></p>
+                                      </li>
+                                      <li>
+                                          <p>Final Testing - On April 22nd, the team will test the removal of the any to any rules. <strong>Application owners will have this LAST CHANCE to test and ensure their applications are not impacted by this change.</strong> Any issues found should
+                                              follow the hyper care process below.</p>
+                                      </li>
+                                      <li>
+                                          <p>Final Separation - If no major issues are identified on April 22nd then <strong>the final Any-to-Any rule removal will be scheduled for May 13th.</strong> Communications will be forthcoming.</p>
+                                      </li>
+                                  </ol>
+                                  <h4><a id="Welcome_New_Team_Members__Should_we_try_to_get_pictures__21"></a>Welcome New Team Members! <em>(Should we try to get pictures???)</em></h4>
+                                  <ul>
+                                      <li><strong>Terri Norton</strong> - Network Engineer - Americas</li>
+                                      <li><strong>Michael Cunningham</strong> - Network Engineer - Americas</li>
+                                      <li><strong>Stella Zhou</strong> - Project Manager - Asia Pacific</li>
+                                  </ul>
+                                  <h4><a id="Americas_26"></a>Americas</h4>
+                                  <p><em><strong>Accomplishments</strong></em></p>
+                                  <ul>
+                                      <li>Completed implementation of <strong>Cisco SNTC (Smart Net Total Care) Collector</strong>. This tool gives us visibility into network equipment installed across our entire enterprise. Additionally, the SNTC Collector allowed us to identify risks
+                                          associated with Cisco Devices that are past Last Day of Support as well as devices that are not under service contracts. Projects to address both of these issues have been initiated.</li>
+                                      <li>The team worked with Verizon to determine how many existing circuits are connected to Verizon owned equipment that are not under <strong>LOA (Letter of Agreement)</strong> as well as how many circuits are covered under a legacy JCI LOA. An LOA
+                                          allows Verizon to do work on non-Verizon circuits that are connected to Verizon equipment. All circuits have been identified and brought under the new Adient LOA Template.</li>
+                                      <li>Completed an analysis of Adient firewalls to establish standard template configuration and identify firewalls with configurations that require remediation.</li>
+                                  </ul>
+                                  <p><em><strong>Upcoming/Ongoing</strong></em></p>
+                                  <ul>
+                                      <li>Installation and configuration of network equipment and connectivity at the new <strong>Southfield Technology Center</strong> in Michigan to support Adient IT relocation.</li>
+                                      <li>The Network Services team is supporting local IT with the installation and configuration of network equipment and connectivity at <strong>new plant in Aguascaliente, Mexico</strong>.</li>
+                                      <li>The team is supporting <strong>YFAI Separation</strong> at multiple sites, including Adient and YFAI sites in Holland, MI.</li>
+                                      <li>Reserach and implement a <strong>TEM (Telecom Expense Management)</strong> solution to manage Network invoices, ordering, and equipment inventory.</li>
+                                  </ul>
+                                  <h4><a id="EMEA_38"></a>EMEA</h4>
+                                  <p><em><strong>Accomplishments</strong></em></p>
+                                  <ul>
+                                      <li>
+                                          <p>On March 29 the EMEA Network Services team presented <strong>SolarWinds</strong>, a new network monitoring tool, to the EMEA Business Unit IT. This tool provides network dashboards for all AE facilities globally and contains utilization graphs,
+                                              congestion reports, WLAN statistics and more. The tool can be accessed <a href="https://solarwinds.adient.com/Orion/Login.aspx?ReturnUrl=%2fOrion%2fSummaryView.aspx">here</a>. Access can be requested by opening an ITSM ticket and assigning
+                                              it to /it.co.net-ops.gl queue.</p>
+                                      </li>
+                                      <li>
+                                          <p>On April 13, the EMEA team presented the results of the PoC (Proof of Concept) for the <strong>zScaler zApp</strong>. zApp is an application that facilitates global cloud-based information security (web browsing) and solves some of the issues
+                                              that we are facing with the current internet setup. zApp will not be widely deployed at the moment in Adient but the proof of concept showed advanced technologies that might be reconsidered at a later stage.</p>
+                                      </li>
+                                      <li>
+                                          <p>Implementation of <strong>Syslog</strong> - Syslog is a standard for message logging that helps with system management and security auditing as well as general informational, analysis, and debugging. Network Services has installed a new syslog
+                                              server in the Suwanee Datacenter (SDC)</p>
+                                      </li>
+                                  </ul>
+                                  <p><em><strong>Upcoming/Ongoing</strong></em></p>
+                                  <ul>
+                                      <li>
+                                          <p>The EMEA team assisted with the <strong>final network separation testing</strong> on April 22. As part of the test, access to all applications that are not covered by a TSA (Transitional Service Agreement) between Adient and JCI will be temporary
+                                              disconnect for an impact assessment exercise.</p>
+                                      </li>
+                                      <li>
+                                          <p>Network Services has committed to updating all documentation pertaining to network standards to reflect the current network topology and portfolio. Missing standard documents will be added and uploaded to Sharepoint.</p>
+                                      </li>
+                                  </ul>
+                                  <h4><a id="APAC_53"></a>APAC</h4>
+                                  <p><em><strong>Accomplishments</strong></em></p>
+                                  <ul>
+                                      <li>
+                                          <p>The team compared <strong>Verizon MPLS (Multiprotocol Label Switching) and domestic MPLS price in Asia</strong> to look for cost saving opportunities. Singtel offered MPLS pricing that is much lower for circuits that are 10Mbps and above.
+                                              The Procurement team will use these findings to drive discount negotiations.</p>
+                                      </li>
+                                      <li>
+                                          <p>Morgan Sun attended a three day <strong>workshop for Adient China IT</strong>. Topics included digital office solutions, Industrial 4.0, performance management, and each team’s update.</p>
+                                      </li>
+                                      <li>
+                                          <p>Completed the installation of network equipment and connectivity at the <strong>new plant in Thailand</strong> which also helped to solve two complex network issues in short period and provide solid network during R@R(Run and Rate).</p>
+                                      </li>
+                                      <li>
+                                          <p>Created an e-workflow in sharepoint for the <strong>network deviation request process</strong>. The network deviation process is used to track and document non-standard network designs and solutions.</p>
+                                      </li>
+                                  </ul>
+                                  <p><em><strong>Upcoming/Ongoing</strong></em></p>
+                                  <ul>
+                                      <li>
+                                          <p>Continuing to work with Verizon and China Telecom to review and correct the <strong>QoS (Quality of Service) shaping percentage</strong> for all China sites. QoS shaping is used to buffer traffic that exceeds the committed bandwidth to avoid
+                                              exceeding network capacity.</p>
+                                      </li>
+                                      <li>
+                                          <p><strong>Network optimization and improvement for Indonesia plant</strong> - The plant in Indonesia has unreliable WAN (Wide Area Network) and non-standard LAN (Local Area Network) and Wireless network designs. The team is working with site
+                                              IT and BRM on a total solution to provide a robust network.</p>
+                                      </li>
+                                      <li>
+                                          <p>The team is working with GIS (Global Information Security) on a risk analysis and remediation plan for DC (Datacenter) internet firewalls. It came to our attention that DC internet firewall is sending huge amount of syslog messages to servers.</p>
+                                      </li>
+                                  </ul>
+                                  <h4><a id="VoiceMobility_Services_72"></a>Voice/Mobility Services</h4>
+                                  <p><em><strong>Accomplishments</strong></em></p>
+                                  <ul>
+                                      <li>
+                                          <p>The <strong>approval matrix</strong> for mobile phone ordering has been simplified. In streamlining this process we’ve vastly reduced the time it takes from ordering a mobile phone to actually receiving the mobile phone. We have also augmented
+                                              this where the team can approve in case of someone being out on leave.</p>
+                                      </li>
+                                      <li>
+                                          <p>The <strong>Vodafone techfund account</strong> has been terminated in Germany. We receive ‘tech fund’ - a pool of money - against which we can order mobile phones. This is provided by Vodafone in Germany. We have a limited amount of time to
+                                              use this techfund before it expires. Due to the downgraded support service from Vodafone in Germany, we have used the remainder of this ‘tech fund’ to allow the team to offer the hardware required to our users in a timely fashion. Now
+                                              when a user orders a mobile phone, we can now provide one within days rather than weeks/months.</p>
+                                      </li>
+                                      <li></li>
+                                      <li>
+                                          <p>A reminder was added to the CONCUR and AMEX travel portals for employees traveling out of country. The reminder tells users to add an international package to their mobile phones when they travel. This should help to eliminate the high costs
+                                              we see for users whilst on international travel.</p>
+                                      </li>
+                                  </ul>
+                                  <p><em><strong>Upcoming/Ongoing</strong></em></p>
+                                  <ul>
+                                      <li>
+                                          <p>Team members Dale Thompson, Jozef Lumtzer, and Jessica Li are <strong>comparing the Verizon Gold Car reports to the Avaya reports</strong>. Any mismatch in the data can have an impact on voice quality. Seven sites globally were identified
+                                              to have this issue and we are working on correcting this to ensure voice quality remains unaffected.</p>
+                                      </li>
+                                      <li>
+                                          <p>All regions are working to add <strong>invoices for all sites globally into TEM (Telecom Expense Management) for fixed voice line reporting</strong>. This allows us to compare what we are being charged by our providers to what is in our contracts,
+                                              highlight the differences, and keep track of costs on a global scale. Once fixed voice is added we will start to add network lines into the same tool.</p>
+                                      </li>
+                                      <li>
+                                          <p>Voice helpdesk tickets are in the top 10 seen by our service desk. Team member Deb Christensen is reviewing the existing helpdesk documentation. By updating these documents we will be able to <strong>reduce the amount of tickets and speed up the resolution of user issues relating to voice</strong>.
+                                              36 documents have been reviewed, updated, or deleted so far.</p>
+                                      </li>
+                                  </ul>
                               </div>
                             </div>
                           </td>
                         </tr>
                         <tr><td height='25'>&nbsp;</td></tr>
-                        <tr>
+                        <!-- <tr>
                           <td align='right' valign='top'>
                             <div class="contentEditableContainer contentTextEditable">
                               <div class="contentEditable" >
@@ -265,929 +405,10 @@ td[class="spechide"]
                               </div>
                             </div>
                           </td>
-                        </tr>
+                        </tr> -->
                       </table></td>
     </tr>
   </tbody>
-</table>
-
-            </div><div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
-                        <tr><td height='35'>&nbsp;</td></tr>
-                        <tr><td style='border-bottom:1px solid #454649'></td></tr>
-                        <tr><td height='25'>&nbsp;</td></tr>
-                      </table>
-            </div>
-            <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="10"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" class="specbundle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="13">&nbsp;</td>
-      <td valign="top" width="255"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
-                              <tr>
-                                <td valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <h2 >About your location</h2>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr><td height='12'></td></tr>
-
-                              <tr>
-                                <td valign='top' style='padding-right:30px;'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <p >Generic information about the type of household the buyer is trying to purchase, including average selling prices. Or, information to the seller regarding average prices sold for houses in her area.</p>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr><td height='25'></td></tr>
-
-                              <tr>
-                                <td valign='top' style='padding-bottom:15px;'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Find out more →</a>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-                            </table></td>
-      <td valign="top" width="12">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-      <td valign="top" class="specbundle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="13">&nbsp;</td>
-      <td valign="top" width="255"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
-                              <tr>
-                                <td valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <h2 >Open house</h2>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr><td height='12'></td></tr>
-
-                              <tr>
-                                <td valign='top' style='padding-right:30px;'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <p >Do you know of a house that’s been shown right now that might be of interest? Mention give the details, such as date and time.</p>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr><td height='25'></td></tr>
-
-                              <tr>
-                                <td valign='top' style='padding-bottom:15px;'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Find out more →</a>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-                            </table></td>
-      <td valign="top" width="12">&nbsp;</td>
-    </tr>
-  </tbody>
-</table></td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-            </div><div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
-                        <tr><td height='35'>&nbsp;</td></tr>
-                        <tr><td style='border-bottom:1px solid #454649'></td></tr>
-                        <tr><td height='25'>&nbsp;</td></tr>
-                      </table>
-            </div>
-            <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" height="10"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="255" class="specbundle"><div class="contentEditableContainer contentImageEditable">
-                              <div class="contentEditable" >
-                                <img class="banner" src="images/macCat.jpg" alt='product image' data-default="placeholder" data-max-width="400" width='255' height='154'>
-                              </div>
-                            </div></td>
-      <td valign="top" width="25" class="specbundle">&nbsp;</td>
-      <td valign="top" class="specbundle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top" width="13">&nbsp;</td>
-      <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
-                              <tr>
-                                <td valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <h2 >Featured House</h2>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr><td height='12'></td></tr>
-
-                              <tr>
-                                <td valign='top' style='padding-right:30px;'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <ul style='padding-left:20px;'>
-                                        <li >
-                                          Type of House
-                                        </li>
-                                        <li >
-                                          Asking Price
-                                        </li>
-                                        <li >
-                                          Square feet
-                                        </li>
-                                        <li >
-                                          Rooms
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-
-                              <tr><td height='25'></td></tr>
-
-                              <tr>
-                                <td valign='top' style='padding-bottom:15px;'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable" >
-                                      <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Find out more →</a>
-                                    </div>
-                                  </div>
-                                </td>
-                              </tr>
-                            </table></td>
-      <td valign="top" width="13">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-            </div>
-            <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td height="50"></td>
-    </tr>
-    <tr>
-      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"bgcolor='#F2F2F2'>
-                                    <tr><td height='22' colspan='3'>&nbsp;</td></tr>
-                                    <tr>
-                                      <td width='10'></td>
-                                      <td>
-                                        <div class='contentEditableContainer contentTextEditable'>
-                                          <div class="contentEditable">
-                                            <p >
-                                             Stay in Touch!
-                                           </p>
-                                         </div>
-                                       </div>
-                                     </td>
-                                     <td width='10'></td>
-                                   </tr>
-                                   <tr><td height='22' colspan='3'>&nbsp;</td></tr>
-                                 </table></td>
-      <td bgcolor='#F2F2F2' width="140"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tbody>
-    <tr>
-      <td valign="middle" width="65" bgcolor='#ffffff' height="52" align="center"><div class='contentEditableContainer contentFacebookEditable'>
-                                        <div class="contentEditable" valign='middle'>
-                                          <a target='_blank' href="#"><img src="images/facebook.png" alt='facebook link' data-default="placeholder" data-max-width="37" width='37' height='37' data-customIcon="true"  ></a>
-                                        </div>
-                                      </div></td>
-      <td valign="top" width="5">&nbsp;</td>
-      <td valign="middle" width="65" bgcolor='#ffffff' height="52" align="center"><div class='contentEditableContainer contentTwitterEditable'>
-                                        <div class="contentEditable" valign='middle'>
-                                          <a target='_blank' href="#"><img src="images/twitter.png" alt='twitter link' data-default="placeholder" data-max-width="37" width='37' height='37' data-customIcon="true"  ></a>
-                                        </div>
-                                      </div></td>
-                                      <td valign="top" width="5">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-            </div>
-            <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
-                        <tr><td height='28'></td></tr>
-
-
-                        <tr>
-                          <td valign='top' align='center'>
-                            <div class="contentEditableContainer contentTextEditable">
-                              <div class="contentEditable" >
-                                <p style='color:#A8B0B6; font-size:13px;line-height: 16px;'>This email was sent to [email] when you signed up on [CLIENTS.WEBSITE] Please add us to your contacts to ensure the newsletters land in your inbox.
-                                </p>
-                              </div>
-                            </div>
-                            </td>
-                        </tr>
-                      </table>
-            </div>
-            <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
-            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" >
-                        <tr><td height='28'></td></tr>
-
-                        <tr>
-                          <td valign='top' align='center'>
-                            <div class="contentEditableContainer contentTextEditable">
-                              <div class="contentEditable" >
-                                <p style='color:#CCCCCC; font-weight:bold;font-size:13px;line-height: 30px;'>[CLIENTS.COMPANY_NAME]</p>
-                              </div>
-                            </div>
-                             <div class="contentEditableContainer contentTextEditable">
-                          <div class="contentEditable" >
-                            <p style='color:#CCCCCC; font-size:13px;line-height: 15px;'>[CLIENTS.ADDRESS]</p>
-                          </div>
-                        </div>
-                        <div class="contentEditableContainer contentTextEditable">
-                          <div class="contentEditable" >
-                            <a target='_blank' href="[FORWARD]" style='line-height: 20px;color:#CCCCCC; font-size:13px;'>Forward to a friend</a>
-                          </div>
-                        </div>
-                            <div class="contentEditableContainer contentTextEditable">
-                              <div class="contentEditable" >
-                                <a target='_blank' href='[UNSUBSCRIBE]' style='line-height:19px;color:#CCCCCC; font-size:13px;'>Unsubscribe</a>
-                              </div>
-                            </div>
-                          </td>
-                        </tr>
-                      </table>
-            </div>
-
-            <!--  =========================== The footer ===========================  -->
-      </td>
-      <td valign="top" width="20" class="spechide">&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-;</td>
-    </tr>
-  </tbody>
-</table>
-</td>
-    </tr>
-  </tbody>
-</table>
-
-
-  <!--Default Zone
-
-        <div class="customZone" data-type="image">
-            <div class="movableContent">
-              <table width="560" border="0" cellspacing="0" cellpadding="0" align="center">
-                <tr>
-                  <td height='42'>&nbsp;</td>
-                </tr>
-                <tr>
-                  <td>
-                    <div class="contentEditableContainer contentImageEditable">
-                        <div class="contentEditable">
-                            <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/images/neweditor/default/temp_img_1.png" data-default="placeholder" data-max-width="540">
-                        </div>
-                    </div>
-                  </td>
-                </tr>
-              </table>
-            </div>
-        </div>
-
-        <div class="customZone" data-type="text">
-            <div class='movableContent'>
-                            <table width="560" border="0" cellspacing="0" cellpadding="0" align="center">
-                              <tr><td height='10'>&nbsp;</td></tr>
-                              <tr>
-                                <td align='left' valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                          <div class="contentEditable" >
-                                  <h2 >We’re going to blow your mind.</h2>
-                                  </div>
-                        </div>
-                                </td>
-                              </tr>
-                              <tr><td height='15'>&nbsp;</td></tr>
-                              <tr>
-                                <td align='left' valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                          <div class="contentEditable" >
-                                  <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                  <br><br>
-                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                  </div>
-                        </div>
-                                </td>
-                              </tr>
-                              <tr><td height='25'>&nbsp;</td></tr>
-                              <tr>
-                                <td align='right' valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                          <div class="contentEditable" >
-                                  <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Read more →</a>
-                                  </div>
-                        </div>
-                                </td>
-                              </tr>
-                            </table>
-                      </div>
-        </div>
-
-        <div class="customZone" data-type="imageText">
-            <div class='movableContent'>
-                        <table width="560" border="0" cellspacing="0" cellpadding="0" align="center">
-                          <tr><td height='10'>&nbsp;</td></tr>
-                          <tr>
-                            <td valign='top'>
-                              <div class="contentEditableContainer contentImageEditable">
-                                <div class="contentEditable" >
-                                  <img src="images/macCat.jpg" alt='product image' data-default="placeholder" data-max-width="255" width='255' height='154'>
-                                </div>
-                              </div>
-                            </td>
-
-                            <td valign='top'>
-                                  <table width="255" border="0" cellspacing="0" cellpadding="0" align="center">
-                                    <tr>
-                                      <td valign='top'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <h2 >Chresmographion</h2>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr><td height='12'></td></tr>
-
-                                    <tr>
-                                      <td valign='top' style='padding-right:30px;'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <p >Chamber between the pronaos and the cella in Greek temples where oracles were delivered.</p>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr><td height='25'></td></tr>
-
-                                    <tr>
-                                      <td valign='top' style='padding-bottom:15px;'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Find out more →</a>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-                                  </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-        </div>
-
-        <div class="customZone" data-type="Textimage">
-            <div class='movableContent'>
-                        <table width="560" border="0" cellspacing="0" cellpadding="0" align="center">
-                          <tr><td height='10'>&nbsp;</td></tr>
-                          <tr>
-                            <td valign='top'>
-                                  <table width="255" border="0" cellspacing="0" cellpadding="0" align="center">
-                                    <tr>
-                                      <td valign='top'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <h2 >Chresmographion</h2>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr><td height='12'></td></tr>
-
-                                    <tr>
-                                      <td valign='top' style='padding-right:30px;'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <p >Chamber between the pronaos and the cella in Greek temples where oracles were delivered.</p>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr><td height='25'></td></tr>
-
-                                    <tr>
-                                      <td valign='top' style='padding-bottom:15px;'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Find out more →</a>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-                                  </table>
-                            </td>
-
-                            <td valign='top'>
-                              <div class="contentEditableContainer contentImageEditable">
-                                <div class="contentEditable" >
-                                  <img src="images/macCat.jpg" alt='product image' data-default="placeholder" data-max-width="255" width='255' height='154'>
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-        </div>
-
-        <div class="customZone" data-type="textText">
-            <div class='movableContent'>
-                        <table width="560" border="0" cellspacing="0" cellpadding="0" align="center">
-                          <tr><td height='10'>&nbsp;</td></tr>
-                          <tr>
-                            <td valign='top'>
-                                  <table width="255" border="0" cellspacing="0" cellpadding="0" align="center">
-                                    <tr>
-                                      <td valign='top'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <h2 >Barrel Vault</h2>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr><td height='12'></td></tr>
-
-                                    <tr>
-                                      <td valign='top' style='padding-right:30px;'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <p >An architectural element formed by the extrusion of a single curve (or pair of curves, in the case of a pointed barrel vault) along a given distance.</p>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr><td height='25'></td></tr>
-
-                                    <tr>
-                                      <td valign='top' style='padding-bottom:15px;'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Find out more →</a>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-                                  </table>
-                            </td>
-
-                            <td valign='top'>
-                                  <table width="255" border="0" cellspacing="0" cellpadding="0" align="center">
-                                    <tr>
-                                      <td valign='top'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <h2 >Chresmographion</h2>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr><td height='12'></td></tr>
-
-                                    <tr>
-                                      <td valign='top' style='padding-right:30px;'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <p >Chamber between the pronaos and the cella in Greek temples where oracles were delivered.</p>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-
-                                    <tr><td height='25'></td></tr>
-
-                                    <tr>
-                                      <td valign='top' style='padding-bottom:15px;'>
-                                        <div class="contentEditableContainer contentTextEditable">
-                                <div class="contentEditable" >
-                                        <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Find out more →</a>
-                                        </div>
-                              </div>
-                                      </td>
-                                    </tr>
-                                  </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-        </div>
-
-        <div class="customZone" data-type="qrcode">
-            <div class="movableContent">
-                <div >
-                    <table cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;">
-                      <tr>
-                      <td height='42'>&nbsp;</td>
-                      <td height='42'>&nbsp;</td>
-                </tr>
-                        <tr>
-                            <td valign='top' valign="top" width="75" style='padding:0 20px;'>
-                                <div class="contentQrcodeEditable contentEditableContainer">
-                                    <div class="contentEditable">
-                                        <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/images/neweditor/default/qr_code.png" width="75" height="75">
-                                    </div>
-                                </div>
-                            </td>
-                            <td valign='top' valign="top" style="padding:0 20px 0 20px;">
-                                <div class="contentTextEditable contentEditableContainer">
-                                    <div class="contentEditable">
-                                        <p >Etiam bibendum nunc in lacus bibendum porta. Vestibulum nec nulla et eros ornare condimentum. Proin facilisis, dui in mollis blandit. Sed non dui magna, quis tincidunt enim. Morbi vehicula pharetra lacinia. Cras tincidunt, justo at fermentum feugiat, eros orci accumsan dolor, eu ultricies eros dolor quis sapien.</p>
-                                        <p >Integer in elit in tortor posuere molestie non a velit. Pellentesque consectetur, nisi a euismod scelerisque.</p>
-                                        <p style='text-align:right;margin:0;font-family:Georgia, serif;'><a target='_blank' class='link1'>Read more →</a></p>
-                                        <br>
-                                        <br>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <div class="customZone" data-type="gmap">
-            <div class="movableContent">
-                <div >
-                    <table cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;">
-                      <tr>
-                      <td height='42'>&nbsp;</td>
-                      <td height='42'>&nbsp;</td>
-                </tr>
-                        <tr>
-                            <td valign='top' style='padding:0 20px;'>
-                                <div class="contentEditableContainer contentGmapEditable">
-                                    <div class="contentEditable">
-                                        <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/images/neweditor/default/gmap_example.png" width="175" data-default="placeholder">
-                                    </div>
-                                </div>
-                            </td>
-                            <td valign='top' style="padding:0 20px 0 20px;">
-                                <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable">
-                                        <h2 style='color:#555555;font-size:21px;'>This is a subtitle</h2>
-                                        <p >Etiam bibendum nunc in lacus bibendum porta. Vestibulum nec nulla et eros ornare condimentum. Proin facilisis, dui in mollis blandit. Sed non dui magna, quis tincidunt enim. Morbi vehicula pharetra lacinia. Cras tincidunt, justo at fermentum feugiat, eros orci accumsan dolor, eu ultricies eros dolor quis sapien.</p>
-                                        <p >Integer in elit in tortor posuere molestie non a velit. Pellentesque consectetur, nisi a euismod scelerisque.</p>
-                                        <p style='text-align:right;margin:0;'><a target='_blank' href="#" class='link1'>Read more →</a></p>
-                                        <br>
-                                        <br>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <div class="customZone" data-type="social">
-            <div class="movableContent">
-                <div >
-                    <table cellpadding="0" cellspacing="0" border="0" >
-                      <tr>
-                      <td height='42' colspan='4'>&nbsp;</td>
-                </tr>
-                        <tr>
-                            <td valign='top' colspan="4" style='padding:0 20px;'>
-                                <div class="contentTextEditable contentEditableContainer">
-                                    <div class="contentEditable">
-                                        <h2 style='color:#555555;font-size:21px;'>This is a subtitle</h2>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width='62' valign='top' valign="top" width="62" style='padding:0 0 0 20px;'>
-                                <div class="contentEditableContainer contentTwitterEditable">
-                                    <div class="contentEditable">
-                                        <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/images/neweditor/default/icon_twitter.png" width="42" height="42" data-customIcon="true" data-max-width='42' data-noText="false">
-                                    </div>
-                                </div>
-                            </td>
-                            <td width='216' valign='top' >
-                                <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable">
-                                        <p >Follow us on twitter to stay up to date with company news and other information.</p>
-                                    </div>
-                                </div>
-                            </td>
-                            <td width='62' valign='top' valign="top" width="62">
-                                <div class="contentEditableContainer contentFacebookEditable">
-                                    <div class="contentEditable">
-                                        <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/images/neweditor/default/icon_facebook.png" width="42" height="42" data-customIcon="true" data-max-width='42' data-noText="false">
-                                    </div>
-                                </div>
-                            </td>
-                            <td width='216' valign='top' style='padding:0 20px 0 0;'>
-                                <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable">
-                                        <p >Like us on Facebook to keep up with our news, updates and other discussions.</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <div class="customZone" data-type="twitter">
-            <div class="movableContent">
-                <div '>
-                    <table cellpadding="0" cellspacing="0" border="0" >
-                      <tr>
-                      <td height='42'>&nbsp;</td>
-                      <td height='42'>&nbsp;</td>
-                </tr>
-                        <tr>
-                            <td valign='top' valign="top" width="62" style='padding:0 0 0 20px;'>
-                                <div class="contentEditableContainer contentTwitterEditable">
-                                    <div class="contentEditable">
-                                        <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/images/neweditor/default/icon_twitter.png" width="42" height="42" data-customIcon="true" data-max-width='42' data-noText="false">
-                                    </div>
-                                </div>
-                            </td>
-                            <td valign='top' style='padding:0 20px 0 0;'>
-                                <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable">
-                                        <p >Follow us on twitter to stay up to date with company news and other information.</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <div class="customZone" data-type="facebook">
-            <div class="movableContent">
-                <div >
-                    <table cellpadding="0" cellspacing="0" border="0" >
-                      <tr>
-                      <td height='42'>&nbsp;</td>
-                      <td height='42'>&nbsp;</td>
-                </tr>
-                        <tr>
-                            <td valign='top' valign="top" width="62" style='padding:0 0 0 20px;'>
-                                <div class="contentEditableContainer contentFacebookEditable">
-                                    <div class="contentEditable">
-                                        <img src="/applications/Mail_Interface/3_3/modules/User_Interface/core/v31_campaigns/images/neweditor/default/icon_facebook.png" width="42" height="42" data-customIcon="true" data-max-width='42' data-noText="false">
-                                    </div>
-                                </div>
-                            </td>
-                            <td valign='top' style='padding:0 20px 0 0;'>
-                                <div class="contentEditableContainer contentTextEditable">
-                                    <div class="contentEditable">
-                                        <p >"Like us on Facebook to keep up with our news, updates and other discussions.</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <div class="customZone" data-type="line">
-            <div class='movableContent'>
-                        <table width="560" border="0" cellspacing="0" cellpadding="0" align="center">
-                          <tr><td height='35'>&nbsp;</td></tr>
-                          <tr><td style='border-bottom:1px solid #EEEEEE'></td></tr>
-                          <tr><td height='25'>&nbsp;</td></tr>
-                        </table>
-                      </div>
-        </div>
-
-
-        <div class="customZone" data-type="colums1v2"><div class='movableContent'>
-                          <table width="560" border="0" cellspacing="0" cellpadding="0" align="center" >
-                            <tr><td height="10">&nbsp;</td></tr>
-                            <tr>
-                              <td align="left" valign="top">
-                                <table width='100%'  border="0" cellspacing="0" cellpadding="0" align="center" valign='top'  >
-                                  <tr><td colspan='3' height='15'>&nbsp;</td></tr>
-                                  <tr>
-                                    <td width='15'>&nbsp;</td>
-                                    <td class="newcontent">
-
-                                    </td>
-                                    <td width='15'>&nbsp;</td>
-                                  </tr>
-                                  <tr><td colspan='3' height='25'>&nbsp;</td></tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </table>
-                    </div>
-      </div>
-
-      <div class="customZone" data-type="colums2v2"><div class='movableContent'>
-                      <table width="560" border="0" cellspacing="0" cellpadding="0" align="center" valign='top'>
-                        <tr><td height="10" colspan='3'>&nbsp;</td></tr>
-                        <tr>
-                          <td width='275'  valign='top' >
-                            <table width='100%' border="0" cellspacing="0" cellpadding="0" align="center" valign='top'  >
-                              <tr><td colspan='3' height='15'>&nbsp;</td></tr>
-                              <tr>
-                                <td width='15'>&nbsp;</td>
-                                <td class="newcontent">
-
-                                </td>
-                                <td width='15'>&nbsp;</td>
-                              </tr>
-                              <tr><td colspan='3' height='25'>&nbsp;</td></tr>
-                            </table>
-                          </td>
-
-                          <td width='10'>&nbsp;</td>
-
-                          <td width='275' valign='top' >
-                            <table width='100%' border="0" cellspacing="0" cellpadding="0" align="center" valign='top'  >
-                              <tr><td colspan='3' height='15'>&nbsp;</td></tr>
-                              <tr>
-                                <td width='15'>&nbsp;</td>
-                                <td class="newcontent">
-
-                                </td>
-                                <td width='15'>&nbsp;</td>
-                              </tr>
-                              <tr><td colspan='3' height='25'>&nbsp;</td></tr>
-                            </table>
-                          </td>
-                        </tr>
-
-                      </table>
-                    </div>
-      </div>
-
-      <div class="customZone" data-type="colums3v2"><div class='movableContent'>
-                      <table width="560" border="0" cellspacing="0" cellpadding="0" align="center" valign='top'>
-                        <tr><td height="10" colspan='5'>&nbsp;</td></tr>
-                        <tr>
-                          <td width='182'  valign='top' >
-                            <table width='100%' border="0" cellspacing="0" cellpadding="0" align="center" valign='top'  >
-                              <tr><td colspan='3' height='15'>&nbsp;</td></tr>
-                              <tr>
-                                <td width='15'>&nbsp;</td>
-                                <td class="newcontent">
-
-                                </td>
-                                <td width='15'>&nbsp;</td>
-                              </tr>
-                              <tr><td colspan='3' height='25'>&nbsp;</td></tr>
-                            </table>
-                          </td>
-
-                          <td width='7'>&nbsp;</td>
-
-                          <td width='182'  valign='top' >
-                            <table width='100%' border="0" cellspacing="0" cellpadding="0" align="center" valign='top'  >
-                              <tr><td colspan='3' height='15'>&nbsp;</td></tr>
-                              <tr>
-                                <td width='15'>&nbsp;</td>
-                                <td class="newcontent">
-
-                                </td>
-                                <td width='15'>&nbsp;</td>
-                              </tr>
-                              <tr><td colspan='3' height='25'>&nbsp;</td></tr>
-                            </table>
-                          </td>
-
-                          <td width='7'>&nbsp;</td>
-
-                          <td width='182'  valign='top' >
-                            <table width='100%' border="0" cellspacing="0" cellpadding="0" align="center" valign='top'  >
-                              <tr><td colspan='3' height='15'>&nbsp;</td></tr>
-                              <tr>
-                                <td width='15'>&nbsp;</td>
-                                <td class="newcontent">
-
-                                </td>
-                                <td width='15'>&nbsp;</td>
-                              </tr>
-                              <tr><td colspan='3' height='25'>&nbsp;</td></tr>
-                            </table>
-                          </td>
-                        </tr>
-
-                      </table>
-                    </div>
-      </div>
-
-      <div class="customZone" data-type="textv2">
-        <table border="0" cellspacing="0" cellpadding="0" align="center">
-                              <tr><td height='10'>&nbsp;</td></tr>
-                              <tr>
-                                <td align='left' valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                          <div class="contentEditable" >
-                                  <h2 >We’re going to blow your mind.</h2>
-                                  </div>
-                        </div>
-                                </td>
-                              </tr>
-                              <tr><td height='15'>&nbsp;</td></tr>
-                              <tr>
-                                <td align='left' valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                          <div class="contentEditable" >
-                                  <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                                  </div>
-                        </div>
-                                </td>
-                              </tr>
-                              <tr><td height='25'>&nbsp;</td></tr>
-                              <tr>
-                                <td align='right' valign='top'>
-                                  <div class="contentEditableContainer contentTextEditable">
-                          <div class="contentEditable" >
-                                  <a target='_blank' href="#" style='padding:8px 10px;color:#ffffff;font-size:13px;background:#698EC3;text-decoration:none; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px'>Read more →</a>
-                                  </div>
-                        </div>
-                                </td>
-                              </tr>
-                            </table>
-      </div>
-
-
-
-      -->
-      <!--Default Zone End-->
 
     </body>
     </html>
